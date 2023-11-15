@@ -29,6 +29,11 @@ THEN I find a concise, descriptive title
 
 ## Description
 
+Changed all div to semantic element section and nav
+Changed class header and footer to elements header and footer
+
+
+
 
 
 
