@@ -8,9 +8,10 @@
 </head>
 
 <body>
-    <header class="header">
+    <!--Header style and links for header tabs-->
+    <header>
         <h1>Hori<span class="seo">seo</span>n</h1>
-        <section>
+        <nav>
             <ul>
                 <li>
                     <a href="#search-engine-optimization">Search Engine Optimization</a>
@@ -22,11 +23,13 @@
                     <a href="#social-media-marketing">Social Media Marketing</a>
                 </li>
             </ul>
-        </section>
+        </nav>
     </header>
-    <section class="hero"></section>
-    <section class="content">
-        <section class="fontstylemiddle">
+    <!--This is where I added accessibilty to my images with alt text and changed to semantic-->
+    
+    <div class="hero"></div>
+    <main>
+        <section class="fontstylemiddle" id="search-engine-optimization">
             <img src="./assets/images/search-engine-optimization.jpg"
                 alt="corner of laptop with magnifing glass on top an image of a cup of tea, a cup of pens, a book with company logo"
                 class="float-left" />
@@ -37,7 +40,7 @@
                 your visibility and find the right customers for your business.
             </p>
         </section>
-        <section class="fontstylemiddle">
+        <section class="fontstylemiddle" id="online-reputation-management">
             <img src="./assets/images/online-reputation-management.jpg"
                 alt="an image of a person using both their laptop and cellphone, laptop reads reputation, a cup and corner piece of a cellphone"
                 class="float-right" />
@@ -48,7 +51,7 @@
                 you the control over what potential customers see when they search for your business.
             </p>
         </section>
-        <section class="fontstylemiddle">
+        <section class="fontstylemiddle" id="social-media-marketing">
             <img src="./assets/images/social-media-marketing.jpg"
                 alt="an office setting six people sit across from one another on a wooden table four text bubbles like share tweet media "
                 class="float-left" />
@@ -59,8 +62,8 @@
                 increase your lead generation.
             </p>
         </section>
-    </section>
-    <section class="benefits">
+    </main>
+    <aside class="benefits">
         <section class="benefit">
             <h3>Lead Generation</h3>
             <img src="./assets/images/lead-generation.png"
@@ -80,14 +83,15 @@
         </section>
         <section class="benefit">
             <h3>Cost Management</h3>
-            <img src="./assets/images/cost-management.png" alt="money and gears" />
+            <img src="./assets/images/cost-management.png" alt="money and gears icon" />
             <p>
                 As the search ranking for your business increases, your advertising costs decrease, and you no longer
                 need to advertise your page.
             </p>
         </section>
-    </section>
-    <footer class="footer">
+    </aside>
+    <!--incorporated footer element with proper heading number-->
+    <footer>
         <h4>Made with ❤️️ by Horiseon</h4>
         <p>
             &copy; 2023 Horiseon Social Solution Services, Inc.
