@@ -1,10 +1,10 @@
-#User Story 
+# User Story 
 
 AS A marketing agency
 I WANT a codebase that follows accessibility standards
 SO THAT our own site is optimized for search engines
 
-##Acceptance Criteria 
+## Acceptance Criteria 
 
 GIVEN a webpage meets accessibility standards
 WHEN I view the source code
@@ -27,7 +27,7 @@ THEN I find a concise, descriptive title
 
 
 
-##Description
+## Description
 
 
 
