@@ -43,11 +43,26 @@ THEN I find a concise, descriptive title
 
 Changed all div to semantic element section and nav
 
-Changed class header and footer to elements tags header and footer
+Changed class header and footer selectors to elements tags header and footer selectors
 
 Added accesibility text using ALT 
 
-Changed 
+Customized title name for the page 
+
+Compressed the redundant code in CSS and renamed the class selector
+
+Added notes/comments into both the CSS and the HTML sections
+
+
+## Sources
+
+Worked with Jonathan Abrams
+
+He showed me how to cmd find div and switch to section 
+
+Mark Forte showed me how to use developer tools to screenshot my page
+
+
 
 
 
