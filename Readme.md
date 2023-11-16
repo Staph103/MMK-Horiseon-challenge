@@ -31,9 +31,12 @@ WHEN I view the title element
 THEN I find a concise, descriptive title
 
 
+## Assets
 
+The following images demonstrates the web application's appearance and functionality:
 
 ![screenshot](./assets/images/screenshot.png)
+![screenshot](./assets/images/bottomscreenshot.png)
 
 
 
